@@ -1,0 +1,75 @@
+.basic{
+    
+    margin: 0;
+    padding: 0;
+    background-color:#C19A6B;
+   
+}
+.container{
+    font-family: "Playfair Display" Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    width: 1050px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    
+}
+header{
+    display:flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.center{
+   padding-left: 250px;
+   text-align: center;
+}
+
+.right{
+    padding-left: 200px;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    
+    color: #555;
+}
+.but{
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+.mainimg{
+    padding-left: 300px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+content{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 150px;
+
+}
+footer{
+    text-align: center;
+    padding-top: 30px;
+}
